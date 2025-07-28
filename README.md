@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/user-attachments/assets/83387a1b-35c6-4c88-be82-8443f8fc1aa0" alt="activedir-logo"/>
+<img src="" alt="activedir-logo"/>
 </p>
 
 
@@ -52,7 +52,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - Log-in to `dc-1` as `jane_admin` by entering `mydomain.com\jane_admin` for **Username** and the corresponding password.
  - Click **Continue**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/760f45fe-54f4-4b24-a91a-a62237a1ed13" alt="rdpasdomadminindc1"/>
+<img width="1200" src="" alt="rdpasdomadminindc1"/>
 </p>
 <p>
 <br />
@@ -60,7 +60,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - When logged in to the **Domain Controller VM**, right-click the **Start** menu in the bottom left and click **Run**.
  - In the **Open:** field, enter `gpmc.msc` then **OK** to open the **Group Policy Management Console (GPMC)**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/9cc1a3ea-ca75-41eb-a516-dd4199d07d28" alt="rungpmc"/>
+<img width="1200" src="" alt="rungpmc"/>
 </p>
 <p>
 <br />
@@ -69,14 +69,14 @@ This tutorial explains how to configure accounts and group policy objects, and h
    - In the **Group Policy Management** window, on the left, navigate to **Group Policy Management > Forest: mydomain.com > Domains > mydomain.com > Default Domain Policy**.
    - Right-click **Default Domain Policy** and select **Edit**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/f4285c4c-3e70-4e2b-87b0-08800125fdbe" alt="gpmceditgpo"/>
+<img width="1200" src="" alt="gpmceditgpo"/>
 </p>
 <p>
 <br />
 
  - In the **Group Policy Management Editor**, on the left, navigate to **Default Domain Policy [DC-1.MYDOMAIN.COM] Policy > Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy** and select **Account Lockout Policy**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/5e0f3934-d0a5-4bc2-a2d3-9ed267e33a13" alt="accountlockoutpolicy"/>
+<img width="1200" src="" alt="accountlockoutpolicy"/>
 </p>
 <p>
 <br />
@@ -87,7 +87,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - Click **Apply** then **OK** twice.
  - Now when a user account is locked out, it will be locked out for 30 minutes before unlocking so the user can try to reset it again.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/fdcea0ab-fb70-493f-8dd8-511b93e97428" alt="accountlockoutdurationproperties"/>
+<img width="1200" src="" alt="accountlockoutdurationproperties"/>
 </p>
 <p>
 <br />
@@ -97,14 +97,14 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - In the **Security Policy Setting** tab, check the **Define this policy setting** box, and leave this at the **default Account lockout threshold**, which is **5 invalid logon attempts**.
  - Click **Apply**, then **OK** twice.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/160644e5-198a-4f15-98a7-061166ecd948" alt="accountlockoutthresholdprops"/>
+<img width="1200" src="" alt="accountlockoutthresholdprops"/>
 </p>
 <p>
 <br />
 
  - The complete **Account Lockout Policy Settings** list should look like this: 
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/cbf72096-fa68-4d3f-b6c9-0fd0bce264da" alt="accountlockoutpolicysettingsfinished"/>
+<img width="1200" src="" alt="accountlockoutpolicysettingsfinished"/>
 </p>
 <p>
 <br />
@@ -114,7 +114,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
    - On the right, click the **Settings** tab and click **Close** when prompted by another dialog box.
    - Scroll down to **Computer Configuration (Enabled) > Policies > Windows Settings > Security Settings > Account Policies/Account Lockout Policy** and verify the policy settings in this section.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/328cda51-2110-49c7-86e4-b9fad9147751" alt="verifyaccountpoliciesaccountlockoutpolicy"/>
+<img width="1200" src="" alt="verifyaccountpoliciesaccountlockoutpolicy"/>
 </p>
 <p>
 <br />
@@ -125,7 +125,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
    - Double-click the **Client-1 VM** tile, enter `mydomain.com\jane_admin` for **Username**, and the corresponding password for **Password**.
    - Click **Continue**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/01abeb40-3304-4c73-8e01-eb00dad6eb7f" alt="rdpasjaneadminclientvm"/>
+<img width="1200" src="" alt="rdpasjaneadminclientvm"/>
 </p>
 <p>
 <br />
@@ -134,14 +134,14 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - This forces the **Client VM** to accept the edited **Group Policy**.
  - When the **Command Prompt** displays `Computer Policy update has completed successfully. User Policy update has completed successfully.`, the **Group Policy** has been updated, and the **Client VM** will lockout any user who fails to login after more than 5 attempts.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/00dac73d-59e1-475a-b74d-0390649e1887" alt="gpupdateforce"/>
+<img width="1200" src="" alt="gpupdateforce"/>
 </p>
 <p>
 <br />
 
  - To further verify the **Group Policy** update, invoke the `gpresult /r` command in the **Administrator Command Prompt**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/7f57567d-4cc7-4750-a37e-13928e236037" alt="gpresultslashr"/>
+<img width="1200" src="" alt="gpresultslashr"/>
 </p>
 <p>
 <br />
@@ -152,7 +152,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - Enter the employee username, `baf.rij`, into the **Username** field in the  **domain\username** format: `mydomain.com\baf.rij`
  - Attempt to log-in to the **Client VM** with an incorrect password at least 6 times.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/8b472ac6-20b0-4195-b491-c4804eb32d3d" alt="rdprandomuserclient"/>
+<img width="1200" src="" alt="rdprandomuserclient"/>
 </p>
 <p>
 <br />
@@ -160,7 +160,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - An error **code:0xd07** message displays **Unable to connect**.
  - The edited **Group Policy** has worked.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/b6d1c490-5aa9-4c0a-826a-a3eca12b1d77" alt="unabletoconnectmsg"/>
+<img width="1200" src="" alt="unabletoconnectmsg"/>
 </p>
 <p>
 <br />
@@ -172,7 +172,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - Click the **Account** tab and check the box next to **Unlock account. This account is currently locked out on this Active Directory Domain Controller**.
  - Click **Apply** then **OK**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/cffa2d91-8f99-4753-ac6a-725ce22531fb" alt="unlockemployeeuseraccount"/>
+<img width="1200" src="" alt="unlockemployeeuseraccount"/>
 </p>
 <p>
 <br />
@@ -184,7 +184,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - Log-in to the **Client VM** with the correct password this time, `Password1`.
  - Click **Continue**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/d0e9b541-ef2a-4e15-8fe8-7fdaf16d1a10" alt="rdprandomuserclient"/>
+<img width="1200" src="" alt="rdprandomuserclient"/>
 </p>
 <p>
 <br />
@@ -193,7 +193,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
    - Open **PowerShell** and enter `whoami` in the terminal and it spits-out the current logged-in user, `mydomain\baf.rij`.
  - Log-out of the **Client VM**. 
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/41626e5a-c6c5-4b56-b7c7-1df1c7e5c00c" alt="clientvmuserloggedinwhoami"/>
+<img width="1200" src="" alt="clientvmuserloggedinwhoami"/>
 </p>
 <p>
 <br />
@@ -206,7 +206,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - When the username appears in the **Search results** box at the bottom, right-click it and select **Disable Account**.
  - Then click **OK**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/df7d0cc1-c38a-4c06-813e-b261bf551b08" alt="disableemployeeaccount"/>
+<img width="1200" src="" alt="disableemployeeaccount"/>
 </p>
 <p>
 <br />
@@ -218,7 +218,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - For **Password** enter `Password1`.
  - Attempt to log-in to the **Client VM** with the **disabled** employee user account.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/d0e9b541-ef2a-4e15-8fe8-7fdaf16d1a10" alt="rdprandomuserclient"/>
+<img width="1200" src="" alt="rdprandomuserclient"/>
 </p>
 <p>
 <br />
@@ -226,7 +226,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - An error **code:0xb07** message displays **Unable to connect**.
  - The edited **Group Policy** has worked.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/00721de0-71c6-48ff-994e-e5143d27421d" alt="unabletoconnectmsg2"/>
+<img width="1200" src="" alt="unabletoconnectmsg2"/>
 </p>
 <p>
 <br />
@@ -239,7 +239,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - When the username appears in the box at the bottom, right-click it and select **Enable Account**.
  - Then click **OK**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/7b0fc30a-cc6f-4cc3-9889-d920765c6e66" alt="enableuseraccount"/>
+<img width="1200" src="" alt="enableuseraccount"/>
 </p>
 <p>
 <br />
@@ -251,7 +251,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - Enter `Password1` for the **Password**
  - Attempt to log-in to the **Client VM** with the **Enabled** employee user account, `baf.rij`, and click **Continue**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/d0e9b541-ef2a-4e15-8fe8-7fdaf16d1a10" alt="rdprandomuserclient"/>
+<img width="1200" src="" alt="rdprandomuserclient"/>
 </p>
 <p>
 <br />
@@ -260,7 +260,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
    - Open **PowerShell** and enter `whoami` in the terminal and it spits-out the current logged-in user, `mydomain\baf.rij`.
  - Log-out of the **Client VM**. 
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/41626e5a-c6c5-4b56-b7c7-1df1c7e5c00c" alt="clientvmuserloggedinwhoami"/>
+<img width="1200" src="" alt="clientvmuserloggedinwhoami"/>
 </p>
 <p>
 <br />
@@ -269,7 +269,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
 
  - In the **Domain Controller VM**, enter `eventvwr.msc` into the **Search** menu in the bottom left.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/dcc6baf4-7183-4521-9344-89ee2c9348b7" alt="eventvwrmsc"/>
+<img width="1200" src="" alt="eventvwrmsc"/>
 </p>
 <p>
 <br />
@@ -277,7 +277,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - On the left, click **Windows Logs** then right-click **Security** and select **Find**.
  - In the **Find** dialog box, enter the employee username `baf.rij`, then click **Find Next** until desired entry line is found for `Audit Failure`, `Credential Validation`, and username `baf.rij`.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/89a4516b-480d-4aac-ae6c-cafa25ef3552" alt="dc-logs"/>
+<img width="1200" src="" alt="dc-logs"/>
 </p>
 <p>
 <br />
@@ -286,7 +286,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
 
  - In the **Client VM**, use the **Search** bar in the bottom left and enter `eventvwr.msc` and **Run as administrator**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/b2f60a6e-769e-42b7-983b-5e24ea558d4e" alt="clienteventvwrmsc"/>
+<img width="1200" src="" alt="clienteventvwrmsc"/>
 </p>
 <p>
 <br />
@@ -294,7 +294,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - When prompted to enter the admin user's name and password, enter `mydomain.com\jane_admin` for the name and enter its corresponding password.
  - Click **Yes**.
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/02b49eb4-be34-42ed-851c-b9b1ab698edd" alt="admincreds"/>
+<img width="1200" src="" alt="admincreds"/>
 </p>
 <p>
 <br />
@@ -303,7 +303,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
  - Enter employee user, `baf.rij` then **Find Next** until desired entry line is found for `Audit Failure`, `Logon`, and `baf.rij`.
  - 
 <p>
-<img width="1200" src="https://github.com/user-attachments/assets/2b31092f-646d-4b36-af5b-2e26ab7411f8" alt="clientvmeventvwrmsc"/>
+<img width="1200" src="" alt="clientvmeventvwrmsc"/>
 </p>
 <p>
 <br />
