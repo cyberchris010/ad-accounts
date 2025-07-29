@@ -37,7 +37,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
 
 - [**Step 1 - Configure a Group Policy in Active Directory to Lockout an Employee User Account After 5 Failed Login Attempts** 🖥🔐🧑‍🧑‍🧒](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-1---configure-a-group-policy-in-active-directory-to-lockout-an-employee-user-account-after-5-failed-login-attempts-)
 - [**Step 2 - Get Locked Out of the Client VM after 6 Failed Login Attempts as an Employee User** 👤🔒🪟](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-2--get-locked-out-of-the-client-vm-after-6-failed-login-attempts-as-an-employee-user-)
-- [**Step 3 - Unlock the Employee User Account and Reset Its Password in Active Directory** 🖥🔐🔄]()
+- [**Step 3 - Unlock the Employee User Account and Reset Its Password in Active Directory** 🖥🔐🔄](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-3---unlock-the-employee-user-account-and-reset-its-password-in-active-directory-)
 - [**Step 4 - Log in to the Client VM with the Reset Employee User Password** 👤✅🪟]()
 - [**Step 5 - Disable the Employee User Account in Active Directory** 🖥🔐🚷]()
 - [**Step 6 - Log in to the Client VM with the Disabled Employee User** 👤🚫🪟]()
