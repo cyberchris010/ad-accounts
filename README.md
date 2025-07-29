@@ -41,7 +41,7 @@ This tutorial explains how to configure accounts and group policy objects, and h
 - [**Step 4 - Log in to the Client VM with the Reset Employee User Password** 👤✅🪟](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-4---log-in-to-the-client-vm-with-the-reset-employee-user-password-)
 - [**Step 5 - Disable the Employee User Account in Active Directory** 🖥🔐🚷](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-5---disable-the-employee-user-account-in-active-directory-)
 - [**Step 6 - Log in to the Client VM with the Disabled Employee User** 👤🚫🪟](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-6---log-in-to-the-client-vm-with-the-disabled-employee-user-)
-- [**Step 7 - Re-enable the Employee User Account in Active Directory** 🖥🔐🔄]()
+- [**Step 7 - Re-enable the Employee User Account in Active Directory** 🖥🔐🔄](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-7---re-enable-the-employee-user-account-in-active-directory-)
 - [**Step 8 - Log in to the Client VM with the Re-enabled Employee User Account** 👤✅🪟]()
 - [**Step 9 - Observe the Logs in the Domain Controller VM** 🖥🖥️🪵]()
 - [**Step 10 - Observe the Logs in the Client VM** 🪟🖥️🪵]()
