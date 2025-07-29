@@ -35,16 +35,16 @@ This tutorial explains how to configure accounts and group policy objects, and h
 
 <h2>High-Level Deployment and Configuration Steps 🪜</h2>
 
-- [**Step 1 - Configure a Group Policy in Active Directory to Lockout an Employee User Account After 5 Failed Login Attempts** 🖥🔐🧑‍🧑‍🧒](https://github.com/cyberchris010/ad-accounts#step-1---configure-group-policy-in-active-directory-to-lockout-employee-user-account-after-5-failed-login-attempts-)
-- [**Step 2 - Get Locked Out of the Client VM after 6 Failed Login Attempts as an Employee User** 👤🔒🪟](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-2---get-locked-out-of-client-vm-with-6-failed-employee-user-login-attempts-)
-- [**Step 3 - Unlock the Employee User Account and Reset Its Password in Active Directory** 🖥🔐🔄](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-3---unlock-employee-user-account-and-reset-its-password-in-active-directory-)
-- [**Step 4 - Log in to the Client VM with the Reset Employee User Password** 👤✅🪟](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-4---log-in-to-client-vm-with-reset-employee-user-password-)
-- [**Step 5 - Disable the Employee User Account in Active Directory** 🖥🔐🚷](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-5---disable-employee-user-account-in-active-directory-)
-- [**Step 6 - Log in to the Client VM with the Disabled Employee User** 👤🚫🪟](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-6---attempt-login-to-client-vm-with-disabled-employee-user-)
-- [**Step 7 - Re-enable the Employee User Account in Active Directory** 🖥🔐🔄](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-7---re-enable-employee-user-account-in-active-directory-)
-- [**Step 8 - Log in to the Client VM with the Re-enabled Employee User Account** 👤✅🪟](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-8---log-in-to-client-vm-with-re-enabled-employee-user-account-)
-- [**Step 9 - Observe the Logs in the Domain Controller VM** 🖥🖥️🪵](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-9---observe-logs-in-the-domain-controller-vm-%EF%B8%8F)
-- [**Step 10 - Observe the Logs in the Client VM** 🪟🖥️🪵](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-10---observe-logs-in-the-client-vm-%EF%B8%8F)
+- [**Step 1 - Configure a Group Policy in Active Directory to Lockout an Employee User Account After 5 Failed Login Attempts** 🖥🔐🧑‍🧑‍🧒](https://github.com/cyberchris010/ad-accounts/blob/main/README.md#step-1---configure-a-group-policy-in-active-directory-to-lockout-an-employee-user-account-after-5-failed-login-attempts-)
+- [**Step 2 - Get Locked Out of the Client VM after 6 Failed Login Attempts as an Employee User** 👤🔒🪟]()
+- [**Step 3 - Unlock the Employee User Account and Reset Its Password in Active Directory** 🖥🔐🔄]()
+- [**Step 4 - Log in to the Client VM with the Reset Employee User Password** 👤✅🪟]()
+- [**Step 5 - Disable the Employee User Account in Active Directory** 🖥🔐🚷]()
+- [**Step 6 - Log in to the Client VM with the Disabled Employee User** 👤🚫🪟]()
+- [**Step 7 - Re-enable the Employee User Account in Active Directory** 🖥🔐🔄]()
+- [**Step 8 - Log in to the Client VM with the Re-enabled Employee User Account** 👤✅🪟]()
+- [**Step 9 - Observe the Logs in the Domain Controller VM** 🖥🖥️🪵]()
+- [**Step 10 - Observe the Logs in the Client VM** 🪟🖥️🪵]()
 
 <h2>Step 1 - Configure a Group Policy in Active Directory to Lockout an Employee User Account After 5 Failed Login Attempts 🖥🔐🧑‍🧑‍🧒</h2>
 
