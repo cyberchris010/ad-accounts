@@ -3,8 +3,8 @@
 </p>
 
 
-<h1>Managing Accounts and Resetting Passwords in Active Directory</h1>
-This tutorial explains how to configure accounts and group policy objects, and how to reset passwords, in Active Directory.<br />
+<h1>Managing User Accounts and Resetting Passwords in Active Directory</h1>
+This tutorial explains how to configure user accounts and group policy objects, and how to reset passwords, in Active Directory.<br />
 
 
 <h2>Environments and Technologies Used 🖥️</h2>
