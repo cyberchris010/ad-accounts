@@ -3,7 +3,7 @@
 </p>
 
 
-<h1>Managing User Accounts and Password Resets in Active Directory</h1>
+<h1>Managing Accounts and Password Resets in Active Directory</h1>
 This tutorial explains how to configure user accounts, group policy objects, and password resets in Active Directory.<br />
 
 
