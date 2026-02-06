@@ -26,6 +26,7 @@ This tutorial explains how to configure user accounts, group policy objects, and
 - Windows 10 (21H2)
 
 <h2>List of Prerequisites ✅</h2>
+
 - Microsoft Account
 - Microsoft Azure Subscription and Credits
 - Active Directory Infrastructure in Azure
